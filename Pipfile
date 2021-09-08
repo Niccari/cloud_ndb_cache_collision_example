@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+fastapi="*"
+google-cloud-ndb = "*"
+redis-namespace = "*"
+redis = "*"
+uvicorn = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+start = "./launch.sh"
